@@ -1098,6 +1098,18 @@ video {
   background-image: url('../images/intro-bg.jpg');
 }
 
+.bg-\[url\(\'\.\/images\/intro-bg\.jpg\'\)\]{
+  background-image: url('./images/intro-bg.jpg');
+}
+
+.bg-\[url\(\'\/images\/intro-bg\.jpg\'\)\]{
+  background-image: url('/images/intro-bg.jpg');
+}
+
+.bg-\[url\(\'images\/intro-bg\.jpg\'\)\]{
+  background-image: url('images/intro-bg.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
