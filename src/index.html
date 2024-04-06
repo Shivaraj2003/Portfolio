@@ -15,7 +15,8 @@
     <header class="w-full min-h-screen max-h-fit bg-[url('images/intro-bg.jpg')]">
         <div class="bg-black/70 w-full min-h-screen max-h-fit h-full flex justify-center items-center p-5 md:px-5 px-0">
             <div class="flex flex-col justify-center items-center md:w-5/6 w-full p-3">
-                <img src="images/profile.jpg"  height="250" width="250" alt="profile" class="rounded-full border-8 border-white" />
+                <img src="images/profile.jpg" height="250" width="250" alt="profile"
+                    class="rounded-full border-8 border-white" />
                 <h1 class="text-white text-4xl font-bold text-center leading-normal mt-5">
                     HELLO! I'M SHIVARAJ SHETTY - WEB DEVELOPER, PROGRAMMER & CODING ENTHUSIASIST
                 </h1>
@@ -23,7 +24,7 @@
                     Based in Mangalore,Karnataka
                 </p>
                 <button class="bg-blue-200 text-xl p-4 font-bold text-black">
-                    About Me
+                    <a href="#about">About Me</a>
                 </button>
             </div>
         </div>
@@ -52,16 +53,16 @@
                     </li>
 
                     <li>
-                        <a href="#" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
+                        <a href="#resume" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
                             aria-current="page">RESUME</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
+                        <a href="#projects" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
                             aria-current="page">PORTFOLIO</a>
                     </li>
-                    
+
                     <li>
-                        <a href="#" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
+                        <a href="#contact" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
                             aria-current="page">CONTACT</a>
                     </li>
 
@@ -70,28 +71,29 @@
             </div>
 
             <div class="flex   justify-end gap-2 items-center">
-                            <button id="hamberger-button" class="min-[936px]:hidden text-3xl cursor-pointer">&#9776;</button>
+                <button id="hamberger-button" class="min-[936px]:hidden text-3xl cursor-pointer">&#9776;</button>
 
                 <a class="me-4  text-black transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none  [&.active]:text-black/90"
-                    href="#">
-                    <i class="fa-brands fa-facebook-f fa-lg"></i>
+                    href="https://github.com/Shivaraj2003" target="_blank">
+                    <i class="fa-brands fa-github fa-lg"></i>
                 </a>
 
 
                 <a class="me-4 text-black transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none "
-                    href="#">
+                    href="https://www.linkedin.com/in/shivaraj-shetty-7559b2211/" target="_blank">
                     <i class="fa-brands fa-linkedin fa-lg"></i>
                 </a>
 
                 <a class="me-4 text-black transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none    "
-                    href="#">
+                    href="https://www.instagram.com/_shettyshivraj_?igsh=eG9iZzV2cW93eWRq" target="_blank">
                     <i class="fa-brands fa-instagram fa-lg"></i>
                 </a>
             </div>
 
         </div>
     </nav>
-    <section id="mobile-menu" class="sticky  h-fit top-[68px] w-full bg-white   text-sm flex flex-col   animate-open-menu min-[936px]:hidden hidden">
+    <section id="mobile-menu"
+        class="sticky  h-fit top-[68px] w-full bg-white   text-sm flex flex-col   animate-open-menu min-[936px]:hidden hidden">
         <!-- <button class="text-2xl self-end px-6">&times;</button> -->
         <nav class="flex flex-col  items-center pb-8 " aria-label="mobile">
             <ul
@@ -109,17 +111,17 @@
                 </li>
 
                 <li>
-                    <a href="#" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
+                    <a href="#resume" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
                         aria-current="page">RESUME</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
+                    <a href="#projects" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
                         aria-current="page">PORTFOLIO</a>
                 </li>
-               
-                
+
+
                 <li>
-                    <a href="#" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
+                    <a href="#contact" class="block py-2 px-3  rounded md:bg-transparent  md:p-0"
                         aria-current="page">CONTACT</a>
                 </li>
 
@@ -132,7 +134,7 @@
 
 
     <section
-        class="w-full min-h-screen max-h-fit  flex flex-col justify-center items-center gap-16 mt-10 p-5 scroll-mt-40"
+        class="w-full min-h-screen max-h-fit  flex flex-col justify-center items-center gap-16 mt-10 p-5 scroll-mt-20"
         id="about">
 
         <div class="grid grid-col-12 text-center mx-auto">
@@ -162,19 +164,19 @@
 
         <div
             class="w-full grid grid-cols-12 gap-y-10  mx-auto p-0   md:place-items-center md:place-content-between  font-medium md:text-lg">
-            <div class="col-span-6 md:col-span-3 max-[400px]:col-span-12 mr-auto sm:mx-auto">
+            <div class="col-span-6 md:col-span-3 max-[497px]:col-span-12 mr-auto sm:mx-auto">
                 <p>Name:</p>
                 <p class="font-bold">Shivaraj Shetty</p>
             </div>
-            <div class="col-span-6 md:col-span-3 max-[400px]:col-span-12 mr-auto sm:mx-auto">
+            <div class="col-span-6 md:col-span-3 max-[497px]:col-span-12 mr-auto sm:mx-auto">
                 <p>Email:</p>
                 <p class="font-bold">shivarajshetty635@gmail.com</p>
             </div>
-            <div class="col-span-6 md:col-span-3 max-[400px]:col-span-12 mr-auto sm:mx-auto">
+            <div class="col-span-6 md:col-span-3 max-[497px]:col-span-12 mr-auto sm:mx-auto">
                 <p>DOB:</p>
                 <p class="font-bold">09/04/2003</p>
             </div>
-            <div class="col-span-6 md:col-span-3 max-[400px]:col-span-12 mr-auto sm:mx-auto">
+            <div class="col-span-6 md:col-span-3 max-[497px]:col-span-12 mr-auto sm:mx-auto">
                 <p>From:</p>
                 <p class="font-bold">Karkala,Udupi</p>
             </div>
@@ -378,12 +380,12 @@
         </div>
 
         <div class="grid">
-            <button class="mx-auto border-2 border-black px-7 py-3 font-medium hover:bg-blue-300 ">Download CV</button>
+            <button class="mx-auto border-2 border-black px-7 py-3 font-medium hover:bg-blue-300 "><a href="https://drive.google.com/file/d/1ihkrzvpnc0jc9FdKjrIXgkFx0UIzu3OP/view?usp=drive_link" download="Shivaraj_Shetty_Resume">Download Resume</a></button>
         </div>
         </div>
     </section>
 
-    <section class="w-full  max-h-fit  flex flex-col mt-24    scroll-mt-40">
+    <section class="w-full  max-h-fit  flex flex-col mt-24    scroll-mt-40" id="projects">
 
         <div class="grid grid-col-12 text-center mx-auto">
             <div class=""><span class="bg-blue-200 text-2xl w-fit  p-1">Portfolio</span></div>
@@ -395,109 +397,52 @@
 
         </div>
 
-        <div class="w-11/12 mx-auto min-h-fit " id="project-grid">
-            <div class="grid grid-cols-12   justify-around ">
-                <div id="project1"
-                    class="col-span-12 md:col-span-6 lg:col-span-4 min-h-[300px]  m-3 mx-0 md:m-5 bg-cover bg-center bg-[url('images/project1.jpg')] border-2 border-black">
-                    <div
-                        class="p-3 flex flex-col justify-around items-center gap-3 my-auto h-full  text-black opacity-0  hover:backdrop-blur  hover:opacity-100 hover:cursor-pointer ">
-                        <h1 class="text-2xl font-bold">ShoezKart</h1>
-                        <p class="text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                            ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ad.</p>
-                        <button class="mx-auto border-2 border-black px-5 py-2 font-medium hover:bg-blue-300 " id="visit1">
-                                Visit</button>
 
-                    </div>
-                </div>
-                <div id="project1"
-                    class="col-span-12 md:col-span-6 lg:col-span-4 min-h-[300px]  m-3 mx-0 md:m-5 bg-cover bg-center bg-[url('images/project2.jpg')] border-2 border-black">
-                    <div
-                        class="p-3 flex flex-col justify-around items-center gap-3 my-auto h-full  text-black opacity-0  hover:backdrop-blur hover:z-10  hover:opacity-100 hover:cursor-pointer ">
-                        <h1 class="text-2xl font-bold">Webovio-Clone</h1>
-                        <p class="text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                            ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ad.</p>
-                        <button class="mx-auto border-2 border-black px-5 py-2 font-medium hover:bg-blue-300 " id="visit1">
-                                Visit</button>
 
-                    </div>
-                </div>
-                <div id="project1"
-                    class="col-span-12 md:col-span-6 lg:col-span-4 min-h-[300px]  m-3 mx-0 md:m-5 bg-cover bg-center bg-[url('images/project3.jpg')] border-2 border-black">
-                    <div
-                        class="p-3 flex flex-col justify-around items-center gap-3 my-auto h-full  text-black opacity-0  hover:backdrop-blur hover:z-10  hover:opacity-100 hover:cursor-pointer ">
-                        <h1 class="text-2xl font-bold">Ketamine-Clone</h1>
-                        <p class="text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                            ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ad.</p>
-                        <button class="mx-auto border-2 border-black px-5 py-2 font-medium hover:bg-blue-300 " id="visit1">
-                                Visit</button>
-
-                    </div>
-                </div>
-
-                <!-- <div id="project1"
-                    class="col-span-12 md:col-span-6 lg:col-span-4 min-h-[300px]  m-3 mx-0 md:m-5 bg-[url('images/intro-bg.jpg')]">
-                    <div
-                        class="p-3 flex flex-col justify-around items-center gap-3 my-auto h-full  bg-black/70 text-white ">
-                        <h1 class="text-2xl font-bold  text-center">Webovio-Clone</h1>
-                        <p class="text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                            ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ad.</p>
-                        <button class="mx-auto border-2 border-black px-5 py-2 font-medium hover:bg-blue-300 "><a
-                                href="https://shivaraj2003.github.io/webovio-clone/">Visit</a></button>
-
-                    </div>
-                </div> -->
-                <!-- <div id="project1"
-                    class="col-span-12 md:col-span-6 lg:col-span-4 min-h-[300px]  m-3 mx-0 md:m-5 bg-[url('images/intro-bg.jpg')]">
-                    <div
-                        class="p-3 flex flex-col justify-around items-center gap-3 my-auto h-full  bg-black/70 text-white">
-                        <h1 class="text-2xl font-bold text-center">Ketamine-Clone</h1>
-                        <p class="text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                            ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ad.</p>
-                        <button class="mx-auto border-2 border-black px-5 py-2 font-medium hover:bg-blue-300 "><a
-                                href="https://shivaraj2003.github.io/Ketamine-Clone/">Visit</a></button>
-                    </div>
-                </div> -->
-
+        <div class="w-11/12 mx-auto min-h-fit" id="project-grid">
+            <div class="grid grid-cols-12 justify-around">
             </div>
-
         </div>
+        <div class="hidden grid  fixed sm:fixed  backdrop-blur-3xl top-0 bg-white/25    grid-cols-12 w-full mx-auto  h-full  shadow-2xl flex-col md:flex-row md:gap-10    justify-center items-center  gap-0 p-0 md:p-5 z-10"
+            id="modal-id">
 
-    <div class="hidden grid  fixed sm:fixed overflow-y-scroll backdrop-blur-3xl top-0  grid-cols-12 w-full mx-auto  h-full  shadow-2xl flex-col md:flex-row md:gap-10    justify-center items-center  gap-0 p-0 md:p-5 z-10"   id="modal-id">
-   	                
-    <div class="text-6xl   mb-auto cursor-pointer ms-auto md:hidden block" id="close">&times</div>
+            <div class="text-6xl   mb-auto cursor-pointer ms-auto md:hidden block" id="close">&times</div>
 
-<div class="w-full mx-auto h-[70vh]   text-black col-span-12 md:col-span-6  bg-[url('images/intro-bg.jpg')] bg-cover">
-        <div class=" w-full bg-black/50 h-full flex justify-center items-center md:p-5 md:px-5 px-0 ">
-            
-        </div>
-    </div>
-    <div class="w-full mx-auto  h-[70vh]   col-span-12 md:col-span-6 ">
-        <div class=" w-full bg-blue-50 h-full flex justify-center items-center p-5 md:px-5 px-0 ">
-            <div class="flex flex-col justify-center items-center md:w-5/6 w-full p-3 gap-5">
-                <!-- <div class="text-6xl ">&times</div> -->
-                <h1 class="font-poppins  text-4xl font-bold text-center leading-normal mt-5">
-                    ShoezKart
-                </h1>
-                <p class=" text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem omnis ipsa eveniet nemo sequi amet.</p>
-                    <div>
-                        <h2 class="text-xl">Technologies used:</h2>
-                        <ul class="list-none flex flex-col justify-center items-center  gap-3">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            
-                        </ul>
-                    </div>
-                    <div class="bg-blue-300 p-2 text-black cursor-pointer font-semibold"><a href="" class="btn">View Project</a></div>
-                <!-- <button class="bg-blue-200 text-lg px-4 py-2 font-bold text-black" id="close">
+            <div
+                class="w-full mx-auto h-[70vh]   text-black col-span-12 md:col-span-6  bg-[url('images/intro-bg.jpg')] bg-cover">
+                <div class=" w-full bg-black/50 h-full flex justify-center items-center md:p-5 md:px-5 px-0 ">
+
+                </div>
+            </div>
+            <div class="w-full mx-auto  md:h-[70vh]   col-span-12 md:col-span-6 ">
+                <div class=" w-full bg-blue-50 h-full flex justify-center items-center p-5 md:px-5 px-0 ">
+                    <div class="flex flex-col justify-center items-center md:w-5/6 w-full p-3 gap-5">
+                        <!-- <div class="text-6xl ">&times</div> -->
+                        <h1 class="font-poppins  text-4xl font-bold text-center leading-normal mt-5">
+                            ShoezKart
+                        </h1>
+                        <p class=" text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem omnis ipsa
+                            eveniet nemo sequi amet.</p>
+                        <div>
+                            <h2 class="text-xl">Technologies used:</h2>
+                            <ul class="list-none flex flex-col justify-center items-center  gap-3">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+
+                            </ul>
+                        </div>
+                        <div class="bg-blue-300 p-2 text-black cursor-pointer font-semibold"><a href="" class="btn">View
+                                Project</a></div>
+                        <!-- <button class="bg-blue-200 text-lg px-4 py-2 font-bold text-black" id="close">
                     Close
                 </button> -->
+                    </div>
+                </div>
             </div>
+            <div class="text-6xl  ml-auto mb-auto cursor-pointer hidden md:block" id="close1">&times</div>
         </div>
-    </div>
-    <div class="text-6xl  ml-auto mb-auto cursor-pointer hidden md:block" id="close1">&times</div>
-  </div>
-  
+
     </section>
 
 
@@ -510,14 +455,14 @@
                 </h1>
 
                 <button class="bg-blue-200 text-xl p-4 font-bold text-black">
-                    Hire Me!
+                   <a href="https://www.linkedin.com/in/shivaraj-shetty-7559b2211/" target="_blank">Hire Me!</a>
                 </button>
             </div>
         </div>
     </section>
 
 
-    <section class="w-full min-h-fit  flex flex-col   mt-10 sm:px-10 bg-blue-200 scroll-mt-32   " id="footer">
+    <section class="w-full min-h-fit  flex flex-col   mt-10 sm:px-10 bg-blue-200 scroll-mt-20   " id="contact">
 
 
         <div class="md:w-full grid grid-cols-12 min-h-screen mx-auto p-5 bg-blue-200 md:gap-9">
@@ -534,7 +479,7 @@
                     <div class="flex flex-col  ">
 
                         <h2 class="text-xl font-bold">Living In:</h2>
-                        <p class="text-xl">30 Shacham street, Los Angeles, USA.</p>
+                        <p class="text-xl">Ajekar,Karkala, Udupi</p>
                     </div>
                     <div class="flex flex-col  ">
 
@@ -545,18 +490,18 @@
                     <div class="flex gap-5 justify-between w-full mb-7">
                         <div class="flex justify-between w-1/2">
                             <a class="me-4  text-black transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none  [&.active]:text-black/90"
-                                href="#">
-                                <i class="fa-brands fa-facebook-f fa-2xl"></i>
+                                href="https://github.com/Shivaraj2003" target="_blank">
+                                <i class="fa-brands fa-github fa-2xl"></i>
                             </a>
 
 
                             <a class="me-4 text-black transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none "
-                                href="#">
+                                href="https://www.linkedin.com/in/shivaraj-shetty-7559b2211/" target="_blank">
                                 <i class="fa-brands fa-linkedin fa-2xl"></i>
                             </a>
 
                             <a class="me-4 text-black transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none    "
-                                href="#">
+                                href="https://www.instagram.com/_shettyshivraj_?igsh=eG9iZzV2cW93eWRq" target="_blank">
                                 <i class="fa-brands fa-instagram fa-2xl"></i>
                             </a>
                         </div>
@@ -564,40 +509,41 @@
 
                 </div>
             </div>
- <div class="col-span-12 md:col-span-6 h-full  md:ml-8  ">
+            <div class="col-span-12 md:col-span-6 h-full  md:ml-8  ">
                 <h1 class="text-3xl  font-semibold mt-5">Estimate your project</h1>
 
                 <div class="flex flex-col justify-around  ">
                     <form action="">
                         <div class="my-14">
-                        <label for="name" class="text-2xl">What is your name?</label>
-                        <br>
-                        <input type="text" class="border-b-2 border-black w-full py-3 bg-blue-200">
+                            <label for="name" class="text-2xl">What is your name?</label>
+                            <br>
+                            <input type="text" class="border-b-2 border-black w-full py-3 bg-blue-200">
                         </div>
                         <div class="my-6">
-                        <label for="name" class="text-2xl">Your Email Address?</label>
-                        <br>
-                        <input type="text" class="border-b-2 border-black w-full py-3 bg-blue-200">
-                        </div >
+                            <label for="name" class="text-2xl">Your Email Address?</label>
+                            <br>
+                            <input type="text" class="border-b-2 border-black w-full py-3 bg-blue-200">
+                        </div>
                         <div class="my-3 mb-6">
-                        <label for="name" class="text-2xl">How can I Help you?:</label>
-                        <br>
-                        <textarea name="" id="50"  rows="5" class="border-b-2 border-black w-full bg-blue-200"></textarea>
-                                </div>
+                            <label for="name" class="text-2xl">How can I Help you?:</label>
+                            <br>
+                            <textarea name="" id="50" rows="5"
+                                class="border-b-2 border-black w-full bg-blue-200"></textarea>
+                        </div>
                     </form>
-                    
 
-                    
-                    
-                   
+
+
+
+
 
                 </div>
                 <div class="mx-auto"><button class="bg-blue-600 text-xl p-4 font-bold text-black ">
-                    Send &rarr;
-                </button></div>
-                 
+                        Send &rarr;
+                    </button></div>
+
             </div>
- 
+
             <!-- <div class="col-span-12 md:col-span-6 h-full   ">
                 <h1 class="text-3xl  font-semibold ">Estimate your project</h1>
                 <div class="border-l-4 h-fit border-blue-300">
@@ -636,7 +582,7 @@
             <div class="col-span-12 md:col-span-6 text-center ">
                 <p class="text-xl">Designed by <a class="text-blue-200 ">Shivaraj Shetty</a></p>
             </div>
-            
+
         </div>
     </div>
 
