@@ -809,10 +809,6 @@ video {
   width: 100%;
 }
 
-.w-9\/12{
-  width: 75%;
-}
-
 .max-w-screen-xl{
   max-width: 1280px;
 }
@@ -821,16 +817,16 @@ video {
   cursor: pointer;
 }
 
+.scroll-mt-20{
+  scroll-margin-top: 5rem;
+}
+
 .scroll-mt-32{
   scroll-margin-top: 8rem;
 }
 
 .scroll-mt-40{
   scroll-margin-top: 10rem;
-}
-
-.scroll-mt-20{
-  scroll-margin-top: 5rem;
 }
 
 .list-none{
@@ -936,10 +932,6 @@ video {
   align-self: center;
 }
 
-.overflow-y-scroll{
-  overflow-y: scroll;
-}
-
 .scroll-smooth{
   scroll-behavior: smooth;
 }
@@ -984,14 +976,6 @@ video {
   border-left-width: 4px;
 }
 
-.border-l{
-  border-left-width: 1px;
-}
-
-.border-b{
-  border-bottom-width: 1px;
-}
-
 .border-black{
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -1020,11 +1004,6 @@ video {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-lime-600{
-  --tw-border-opacity: 1;
-  border-color: rgb(101 163 13 / var(--tw-border-opacity));
 }
 
 .bg-black{
@@ -1085,17 +1064,13 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-white\/50{
-  background-color: rgb(255 255 255 / 0.5);
+.bg-white\/25{
+  background-color: rgb(255 255 255 / 0.25);
 }
 
 .bg-zinc-300{
   --tw-bg-opacity: 1;
   background-color: rgb(212 212 216 / var(--tw-bg-opacity));
-}
-
-.bg-white\/25{
-  background-color: rgb(255 255 255 / 0.25);
 }
 
 .bg-\[url\(\'\.\.\/images\/intro-bg\.jpg\'\)\]{
@@ -1390,10 +1365,6 @@ video {
     margin-right: auto;
   }
 
-  .sm\:bg-cover{
-    background-size: cover;
-  }
-
   .sm\:p-5{
     padding: 1.25rem;
   }
@@ -1517,6 +1488,10 @@ video {
     padding: 0px;
   }
 
+  .md\:p-4{
+    padding: 1rem;
+  }
+
   .md\:p-5{
     padding: 1.25rem;
   }
@@ -1551,8 +1526,10 @@ video {
     grid-column: span 4 / span 4;
   }
 
-  .lg\:bg-cover{
-    background-size: cover;
+  .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 }
 
